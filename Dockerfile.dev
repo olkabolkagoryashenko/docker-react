@@ -3,7 +3,7 @@ FROM node:16-alpine
 WORKDIR '/app'
 
 COPY package.json . 
-RUN npm install express --save
+
 RUN npm install
 
 COPY . .
